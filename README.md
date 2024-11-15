@@ -1,2 +1,2 @@
-Domian for this site: https://beutyzone.yhub.net
+Domian for this site: https://BeautyZone.yhub.net
 img: https://imgur.com/a/rXerDOX
