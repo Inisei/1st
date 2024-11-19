@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Document</title>
+    <title>Beauty Zone</title>
   </head>
   <body>
     <header>
       <nav>
         <a href="./index.html"><img src="./img/logo.svg" alt="logo" /></a>
         <ul>
-          <li><a href="#about-us-section">About us</a></li>
-          <li><a href="#why-us-section">Why us</a></li>
-          <li><a href="#our-procedures-section">Our procedures</a></li>
-          <li><a href="#contacts-section">Contacts</a></li>
+          <li><a class="link" href="#about-us-section">About us</a></li>
+          <li><a class="link" href="#why-us-section">Why us</a></li>
+          <li>
+            <a class="link" href="#our-procedures-section">Our procedures</a>
+          </li>
+          <li><a class="link" href="#contacts-section">Contacts</a></li>
         </ul>
         <ul>
           <!-- contacts -->
@@ -39,20 +41,20 @@
       <!-- Косметологічна клініка -->
       <section>
         <h6>Cosmetology Clinic</h6>
-        <h1 class="main-title">Beauty Zone</h1>
+        <h1 class="hero-title">Beauty Zone</h1>
         <button class="button" type="button">Request a call</button>
         <p>Sign up and get a free consultation from our beautician</p>
       </section>
 
       <section id="#about-us-section">
-        <h2>Transform into <span>Beauty Zone</span></h2>
-        <p>
+        <h2 class="main-title">Transform into <span>Beauty Zone</span></h2>
+        <p class="main-txt">
           Our cosmetology clinic offers you professional services for face and
           body skin care.
         </p>
-        <p>
-          At <span>Beauty zone</span>, we guarantee the highest quality
-          standards and pleasant service. Our cosmetology procedures and
+        <p class="main-txt">
+          At <span class="accent">Beauty zone</span>, we guarantee the highest
+          quality standards and pleasant service. Our cosmetology procedures and
           preparations will help you maintain your beauty and youth. Beauty is
           with us forever!
         </p>
@@ -63,7 +65,7 @@
       </section>
 
       <section id="why-us-section">
-        <h2>Why people <span>choose us</span></h2>
+        <h2 class="advantages-title">Why people <span>choose us</span></h2>
         <!-- teg ul num -->
         <ul>
           <li>
@@ -79,23 +81,27 @@
         </ul>
       </section>
       <section id="our-procedures-section">
-        <h2>Our <span>procedures</span></h2>
+        <h2 class="procedures-title">Our <span>procedures</span></h2>
         <ul>
           <li>
-            <article><h3>Masks for the face</h3></article>
+            <article>
+              <h3 class="procedures-txt">Masks for the face</h3>
+            </article>
           </li>
           <li>
-            <article><h3>Injections for the face</h3></article>
+            <article>
+              <h3 class="procedures-txt">Injections for the face</h3>
+            </article>
           </li>
           <li>
-            <article><h3>Cleaning face</h3></article>
+            <article><h3 class="procedures-txt">Cleaning face</h3></article>
           </li>
         </ul>
         <button></button>
       </section>
 
       <section id="htfus-section">
-        <h2>How to <span>find us</span></h2>
+        <h2 class="htfus-title">How to <span>find us</span></h2>
         <ul>
           <li>
             <iframe
@@ -117,21 +123,26 @@
             <img src="./img/logo.svg" alt="" />
           </a>
           <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Why us</a></li>
-            <li><a href="#">Our procedures</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a class="footer-inf" href="#">About us</a></li>
+            <li><a class="footer-inf" href="#">Why us</a></li>
+            <li><a class="footer-inf" href="#">Our procedures</a></li>
+            <li><a class="footer-inf" href="#">Contacts</a></li>
           </ul>
           <address id="contacts-section">
             <ul>
               <li>
-                <a href="tel:+38(096)0000007">+ 38 (096) 000 00 07</a>
+                <a class=".footer-inf" href="tel:+38(096)0000007"
+                  >+ 38 (096) 000 00 07</a
+                >
               </li>
               <li>
-                <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+                <a class=".footer-inf" href="mailto:beautyzone@gmail.com"
+                  >beautyzone@gmail.com</a
+                >
               </li>
               <li>
                 <a
+                  class=".footer-inf"
                   href="https://www.bing.com/search?q=%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0%2C+%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2%2C+%D0%B2%D1%83%D0%BB.+%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D0%B0+%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%B0+5&PC=U316&FORM=CHROMN"
                   >Ukraine, Kyiv, st. Taras Shevchenko, 5</a
                 >
@@ -153,8 +164,8 @@
               </li>
             </ul>
 
-            <a href="#" target="_blank">Privacy Policy</a>
-            <p>&copy; 2024 Data Protected</p>
+            <a class=".footer-inf" href="#" target="_blank">Privacy Policy</a>
+            <p class="data-color">&copy; 2024 Data Protected</p>
           </address>
         </nav>
       </footer>

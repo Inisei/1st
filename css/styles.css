@@ -1,3 +1,7 @@
+.ul {
+  list-style-type: none;
+}
+
 .button {
   color: #ffffff;
   border-radius: 32px;
@@ -10,10 +14,67 @@
   background-color: transparent;
   color: #011c44;
 }
-/* .button:focus {
-  background: blue;
-} */
+
+/* active - при нажатии */
 .button:active {
   background: grey;
   border: grey;
+}
+
+.link {
+  color: #011c44;
+}
+
+/* hover - при наведении */
+.link:hover {
+  color: #2b7fff;
+}
+
+.hero-title {
+  color: #2b7fff;
+}
+.main-title {
+  color: #011c44;
+}
+.main-title span {
+  color: #2b7fff;
+}
+
+.main-txt {
+  color: #011c44;
+}
+
+/* .main-txt .accent{
+  
+} */
+
+.advantages-title {
+  color: #011c44;
+}
+
+.advantages-title span {
+  color: #2b7fff;
+}
+
+.procedures-title {
+  color: #011c44;
+}
+
+.procedures-title span {
+  color: #2b7fff;
+}
+.procedures-txt {
+  color: white;
+}
+.htfus-title {
+  color: #011c44;
+}
+.htfus-title span {
+  color: #2b7fff;
+}
+.footer-inf {
+  color: white;
+}
+.data-color {
+  color: #747272;
 }
