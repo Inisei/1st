@@ -1,10 +1,28 @@
 :root {
   --color-dark: #011c44;
   --color-brand: #2b7fff;
+  --font-brand: Play;
+  --font-Ptext: Roboto;
+}
+
+h1 {
+  font-family: var(--font-brand);
+}
+
+h2 {
+  font-family: var(--font-brand);
+}
+
+p {
+  font-family: var(--font-Ptext);
 }
 
 ul {
   list-style-type: none;
+}
+
+body {
+  color: var(--color-dark);
 }
 
 .button {
@@ -28,6 +46,7 @@ ul {
 
 .link {
   color: var(--color-dark);
+  text-decoration: none;
 }
 
 /* hover - при наведении */
@@ -35,11 +54,18 @@ ul {
   color: var(--color-brand);
 }
 
+/* HERO TITLE  */
 .hero-title {
   color: var(--color-brand);
+  font-family: var(--font-brand);
+  font-size: 140px;
 }
+
+/* TRANSFORN TO  */
 .main-title {
   color: var(--color-dark);
+  font-size: 64px;
+  text-align: left;
 }
 .main-title span {
   color: var(--color-brand);
@@ -49,20 +75,22 @@ ul {
   color: var(--color-dark);
 }
 
-/* .main-txt .accent{
-  
-} */
-
+/* WHY PPL CHOSE US */
 .advantages-title {
   color: var(--color-dark);
+  text-align: center;
+  font-size: 64px;
 }
 
 .advantages-title span {
   color: var(--color-brand);
 }
 
+/* OUR PROCEDURES */
 .procedures-title {
   color: var(--color-dark);
+  text-align: center;
+  font-size: 64px;
 }
 
 .procedures-title span {
@@ -71,8 +99,12 @@ ul {
 .procedures-txt {
   color: white;
 }
+
+/* HOW  TO FIND US */
 .htfus-title {
   color: var(--color-dark);
+  text-align: center;
+  font-size: 64px;
 }
 .htfus-title span {
   color: var(--color-brand);
