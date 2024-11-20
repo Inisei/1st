@@ -1,18 +1,23 @@
-.ul {
+:root {
+  --color-dark: #011c44;
+  --color-brand: #2b7fff;
+}
+
+ul {
   list-style-type: none;
 }
 
 .button {
   color: #ffffff;
   border-radius: 32px;
-  background: #2b7fff;
-  border: 2px solid #2b7fff;
+  background: var(--color-brand);
+  border: 2px solid var(--color-brand);
   cursor: pointer;
 }
 
 .button:hover {
   background-color: transparent;
-  color: #011c44;
+  color: var(--color-dark);
 }
 
 /* active - при нажатии */
@@ -22,26 +27,26 @@
 }
 
 .link {
-  color: #011c44;
+  color: var(--color-dark);
 }
 
 /* hover - при наведении */
 .link:hover {
-  color: #2b7fff;
+  color: var(--color-brand);
 }
 
 .hero-title {
-  color: #2b7fff;
+  color: var(--color-brand);
 }
 .main-title {
-  color: #011c44;
+  color: var(--color-dark);
 }
 .main-title span {
-  color: #2b7fff;
+  color: var(--color-brand);
 }
 
 .main-txt {
-  color: #011c44;
+  color: var(--color-dark);
 }
 
 /* .main-txt .accent{
@@ -49,28 +54,28 @@
 } */
 
 .advantages-title {
-  color: #011c44;
+  color: var(--color-dark);
 }
 
 .advantages-title span {
-  color: #2b7fff;
+  color: var(--color-brand);
 }
 
 .procedures-title {
-  color: #011c44;
+  color: var(--color-dark);
 }
 
 .procedures-title span {
-  color: #2b7fff;
+  color: var(--color-brand);
 }
 .procedures-txt {
   color: white;
 }
 .htfus-title {
-  color: #011c44;
+  color: var(--color-dark);
 }
 .htfus-title span {
-  color: #2b7fff;
+  color: var(--color-brand);
 }
 .footer-inf {
   color: white;
