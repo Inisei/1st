@@ -6,9 +6,18 @@
 }
 
 /* BASE */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
 h1 {
   font-family: var(--font-brand);
-
+}
 h2 {
   font-family: var(--font-brand);
   font-weight: 700;
@@ -29,7 +38,7 @@ address {
   box-sizing: border-box;
 }
 
-.button {
+button {
   color: #ffffff;
   border-radius: 32px;
   background: var(--color-brand);
@@ -37,15 +46,14 @@ address {
   cursor: pointer;
 }
 
-.button:hover {
+button:hover {
   background-color: transparent;
   color: var(--color-dark);
 }
 
 /* active - при нажатии */
-.button:active {
+button:active {
   background: grey;
-  border: grey;
 }
 
 .link {
@@ -58,12 +66,29 @@ address {
   color: var(--color-brand);
 }
 
-/* HERO TITLE  */
+/* HERO */
 .hero-title {
   color: var(--color-brand);
   font-family: var(--font-brand);
   font-size: 140px;
   font-weight: 700;
+  margin-bottom: 40px;
+}
+/* 17px, 195px, 205px, 706px; */
+.hero-section {
+  padding-left: 205px;
+  padding-top: 17px;
+  padding-right: 706px;
+  padding-bottom: 126px;
+}
+.hero-info {
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero-button {
+  width: 219px;
+  height: 53px;
+  margin-bottom: 14px;
 }
 
 /* TRANSFORN TO BEUTY ZONE */
