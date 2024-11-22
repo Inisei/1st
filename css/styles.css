@@ -5,29 +5,28 @@
   --font-Ptext: Roboto;
 }
 
+/* BASE */
 h1 {
   font-family: var(--font-brand);
-}
 
 h2 {
   font-family: var(--font-brand);
   font-weight: 700;
 }
-
 p {
   font-family: var(--font-Ptext);
 }
-
 ul {
   list-style-type: none;
 }
-
 body {
   color: var(--color-dark);
 }
-
 address {
   font-style: normal;
+}
+* {
+  box-sizing: border-box;
 }
 
 .button {
@@ -138,6 +137,7 @@ address {
   font-family: Roboto;
   font-weight: 400;
 }
+
 .data-color {
   color: #747272;
 }
